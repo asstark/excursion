@@ -11,14 +11,33 @@ h1 {
   color: white;
 }
 
+h2 {
+  text-align: center;
+  font-weight: 300;
+  font-size: 42px;
+  color: white;
+}
+
 p {
   text-align: center;
   font-family: Verdana;
+  color: gray;
+  font-size: 21px;
 }
 
-#link {
+.link {
   text-align: center;
   font-family: Verdana;
   color: Aquamarine;
   font-size: 16px;
+}
+
+.center {
+  display: block;
+  margin: 0 auto;
+}
+
+.footer-text {
+  text-align: right;
+  color: gray;
 }
